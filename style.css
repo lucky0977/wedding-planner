@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    position: fixed;
+    z-index: -1;
+
+
+}
+
+#navbarScroll ul li {
+    margin-right: 20px;
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.title {
+    position: absolute;
+    left: 25%;
+    top: 180px;
+    text-align: center;
+
+
+}
+
+.title h1 {
+    font-family: 'Instrument Serif', serif;
+    font-size: 115px;
+}
+
+.title p {
+    font-size: 21px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#quote {
+    margin-top: 800px;
+    text-align: center;
+}
+
+#quote h1 {
+    margin-top: 180px;
+    font-family: 'Instrument Serif', serif;
+    font-size: 55px;
+
+}
+
+#quote p {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#quote a {
+    border: 1px inset black;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    
+    
+}
+
+#quote a:hover{
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+
+#events{
+    text-align: center; 
+    
+}
+
+#events img{
+    width: 100%;
+    
+}
+
+#events a {
+    border: 1px inset black;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    
+    
+}
+
+#events a:hover{
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+
+#events h1 {
+    margin-top: 100px;
+    font-family: 'Instrument Serif', serif;
+    font-size: 55px;
+
+}
+
+#events .shortImage{
+    margin-top: 130px;
+    transition: transform 0.5s ease-in-out;
+    
+}
+
+#events .shortImage:hover{
+    transform: scale(1.1);
+}
+
+#optionsTitle{
+    text-align: center;
+    
+}
+
+#optionsTitle h1 {
+    margin-top: 180px;
+    font-family: 'Instrument Serif', serif;
+    font-size: 55px;
+
+}
+
+#optionsTitle p {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#options{
+    background-color:rgba(225,159,173,255); 
+    height:600px ;
+}
+
+#options .col-3{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#options .col-3 h2{
+    font-family: 'Instrument Serif', serif;
+    font-size: 28px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+#options .col-3 p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+}
+
+#options .col-3 img{
+    transition: transform 0.5s ease-in-out;
+}
+
+#options .col-3 img:hover{
+    transform: scale(1.1);
+}
+
+
+
+#optionsButton a{
+    border: 1px inset black;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    
+    
+}
+
+#optionsButton a:hover{
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+
+#optionsButton{
+    background-color:rgba(225,159,173,255); 
+    height: 100px;
+    text-align: center;
+    
+}
+
+#quote1 {
+    text-align: center;
+    
+}
+
+#quote1 h1 {
+    margin-top: 130px;
+    font-family: 'Instrument Serif', serif;
+    font-size: 55px;
+
+}
+
+#quote1 p {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#quote1 a {
+    border: 1px inset black;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    
+    
+}
+
+#quote1 a:hover{
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+
+#quote1 img{
+    margin-top: 60px;
+    transition: transform 0.5s ease-in-out;
+}
+
+#quote1 img:hover{
+    transform: scale(1.1);
+}
+
+#food{
+    height: 900px;
+
+}
+
+#food .cover{
+    background-color: rgba(225,159,173,255);
+    text-align: center;
+    
+}
+
+#food .description{
+    background-color: white;
+    text-align: center;
+}
+
+#food .cover img{
+    margin-top: 220px;
+    transition: transform 0.5s ease-in-out;
+}
+
+#food .cover img:hover{
+    transform: scale(1.1);
+    
+}
+
+#food .description h1{
+    margin-top: 220px;
+    font-family: 'Instrument Serif', serif;
+    font-size: 55px;
+}
+
+#food .description p{
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#food .description a{
+    border: 1px inset black;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    
+    
+}
+
+#food .description a:hover{
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+
+#end{
+    background-color: rgba(235,114,62,255);
+    height: 500px;
+    text-align: center;
+}
+
+#end h1{
+    margin-top: 100px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
+}
+
+#end a{
+    border: 1px inset black;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    
+    
+}
+
+#end a:hover{
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+
+#quote2{
+    text-align: center;
+}
+
+#quote2 h1 {
+    margin-top: 100px;
+    font-family: 'Instrument Serif', serif;
+    font-size: 55px;
+
+}
+
+#quote2 p {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#weddingOptions{
+    text-align: center;
+    height: 800px;
+    
+}
+
+#weddingOptions table{
+    margin-left: 270px;
+}
+
+#weddingOptions h1{
+    margin-top: 130px;
+    font-family: 'Instrument Serif', serif;
+    font-size: 55px;
+}
+
+#weddingOptions p {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#weddingOptions a{
+    border: 1px inset black;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    
+    
+}
+
+#weddingOptions a:hover{
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+
+#weddingOptions img{
+    margin-top: 160px;
+    transition: transform 0.5s ease-in-out;
+}
+
+#weddingOptions img:hover{
+    transform: scale(1.1);
+    
+}
+
+
+#quote3{
+    text-align: center;
+    background-color:rgba(235,114,62,255) ;
+
+}
+
+#quote3 h1{
+    margin-top: 80px;
+    font-family: 'Instrument Serif', serif;
+    font-size: 55px;
+}
+
+.carousel-item h3{
+ font-family:'Instrument Serif', serif ;
+ font-size: 30px;
+ font-weight: bolder;
+}
+
+#seasonal  h3 {
+    margin-top: 70px;
+}
+
+#seasonal .seasonalImage img{
+    margin-top: 120px;
+}
+
+#seasonal p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+#quote4{
+    text-align: center;
+    height: 1200px;
+    background-color: rgba(253,248,242,255);
+}
+
+.smallp{
+    margin-top: 130px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#quote4 h1{
+    font-family: 'Instrument Serif', serif;
+    font-size: 55px;
+}
+
+.normalp{
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.largep{
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Instrument Serif', serif;
+}
+
+.hoverimages img {
+    margin-top: 120px;
+    transition: transform 0.7s ease-out;
+}
+
+.hoverimages img:hover{
+    transform: scale(1.1);
+    
+}
+
+#quote5{
+    text-align: center;
+    height: 300px;
+    background-color: rgba(253,248,242,255);
+
+}
+
+#quote5 h1{
+    font-family: 'Instrument Serif', serif;
+    font-size: 55px;
+    margin-top: 130PX;
+}
+
+#aboutSection{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.smallimage{
+    margin-top: 130px;
+    transition: transform 0.7s ease-out;
+}
+
+.smallimage:hover{
+    transform: scale(1.1);
+}
+
+#aboutSection p{
+    font-size: 17px;
+    font-family: 'Instrument Serif', serif;
+    margin-top: 40px;
+}
+
+.col-6 form a{
+    border: 1px inset black;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+
+.col-6 form a:hover{
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+    
+}
+
+
+
+
